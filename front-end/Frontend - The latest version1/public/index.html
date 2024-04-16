@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Login Form Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root">
+    <!-- Login Page -->
+    <div class="wrapper login" id="login-form">
+        <div class="title">
+            Login
+        </div>
+        <form action="#">
+            <div class="field">
+                <input type="text" required>
+                <label>Email Address</label>
+            </div>
+            <div class="field">
+                <input type="password" required>
+                <label>Password</label>
+            </div>
+            <div class="content">
+                <div class="checkbox">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <div class="pass-link">
+                    <a href="#">Forgot password?</a>
+                </div>
+            </div>
+            <div class="field">
+                <input type="submit" value="Login">
+            </div>
+            <div class="signup-link">
+                Not a member?
+                <label for="policy">
+                    <a href="#" onclick="showSignupForm()">Sign Up Now</a>
+                </label>
+            </div>
+        </form>
+    </div>
+
+    <!-- Signup Form -->
+    <div class="wrapper signup" id="signup-form" style="display: none;">
+        <div class="title">
+            Register
+        </div>
+        <form action="#" onsubmit="return validateForm()">
+            <div class="field">
+                <input type="text" required>
+                <label>Enter Email Address</label>
+            </div>
+            <div class="field">
+                <input type="password" required>
+                <label>Create Password</label>
+            </div>
+            <div class="field">
+                <input type="submit" value="Sign Up">
+            </div>
+            <div class = "policy-link">
+                <input type="checkbox" id = "policy">
+                I agree to the
+                <label for="policy">
+                    <a href="#">Terms & Conditions</a>
+                </label>
+            </div>
+            <div class="login-link">
+                Have an account? <a href="#" onclick="showLoginForm()">Login Here</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

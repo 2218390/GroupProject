@@ -1,0 +1,30 @@
+.editevent-button{
+    color: #38bfba;
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+.editevent-button:hover{
+    background-color: rgba(128, 128, 128, 0.128);
+    border-radius: 50rem;
+    padding: 5px;
+}
+.editevent-button svg {
+    height: 30px;
+    width: 30px;
+}
+.hosting-job-title {
+    display: inline-block;
+    margin-left: 50px;
+}
+.edit-button2 {
+    margin-bottom: 8px;
+    border-radius: 0.4rem;
+    padding: 8px;
+}
+.cancel-create2{
+    background-color: rgba(128, 128, 128, 0.128);
+    border-radius: 50rem;
+    padding: 5px;
+}
+

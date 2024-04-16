@@ -1,0 +1,233 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.container5{
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    max-width: 1325px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.page-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #2ecc71;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.event-item {
+    position: relative;
+    width: calc(50% - 10px);
+    background-color: #ffffff;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    box-sizing: border-box; 
+}
+.event-past {
+    position: relative;
+    width: calc(50% - 10px); 
+    background-color: #ffffff;
+    border: 3px solid red;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: box-shadow 0.3s ease;
+    box-sizing: border-box;
+  }
+
+.event-item:hover {
+    box-shadow: 0 0 20px rgba(46, 204, 113, 0.1);
+}
+
+.event-item h2 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #2ecc71;
+}
+
+.description {
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+.hosted-by,
+.location,
+.date,
+.slots,
+.description {
+    margin-top: 10px;
+    color: #7f8c8d;
+}
+.warning{
+    margin-top:10px;
+    color:red;
+}
+
+.apply-button {
+    background-color: #38bfba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.apply-button:hover {
+    background-color: #00fff7;
+}
+
+.error-message {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.favorite-button {
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+.button-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.event-image {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+}
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1); 
+    z-index: 801;
+}
+
+.event-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 800;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 80%; 
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+.form-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000; 
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.createevent_button {
+    padding: 7px 7px;
+    text-align: center;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #03c5be, #04ca0b);
+    cursor: pointer;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.createevent_button:hover{
+    background: linear-gradient(-135deg,#00fff7, #00ff08);
+}
+.search-box1 {
+    width: 400px;
+    margin-right: 20px;
+}
+.cities-box {
+    margin-right: 20px;
+    padding: 9px;
+    border-radius: 4px;
+    border-color: #ccc;
+}
+.view-button {
+    padding: 7px 7px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #3ce759;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    color: #fff;
+}
+.view-button:hover {
+    background-color: #2eb745;
+}
+.profile-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-content {
+    text-align: center;
+}
+
+.profile-content h2 {
+    margin-bottom: 10px;
+}
+
+.profile-content p {
+    margin-bottom: 5px;
+}
+
+.profile-content button {
+    margin-top: 10px;
+}
+.profile-picture{
+    height:50px;
+    width:50px;
+}

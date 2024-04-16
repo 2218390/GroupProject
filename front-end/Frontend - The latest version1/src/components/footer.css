@@ -1,0 +1,13 @@
+.footer {
+    background-color:#03e2db;
+    color: azure;
+    padding: 80px;
+    margin-top: auto;
+    position: relative;
+    width: 200%;
+    z-index: 900;
+    top: 80px;
+    right: 100px
+    /* margin-bottom: 5px; */
+
+}

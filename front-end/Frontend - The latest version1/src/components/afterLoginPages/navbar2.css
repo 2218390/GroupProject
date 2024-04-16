@@ -1,0 +1,120 @@
+.navbar2 {
+    background: linear-gradient(-135deg, #03c5be, #04ca0b);
+    color: rgb(255, 255, 255);
+    padding: 1em;
+    display: flex;
+  }
+  
+  .navbar2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    display: flex;
+    max-height: 5000px;
+  }
+  
+  .navbar2 li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .navbar2 a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-colour 0.3s ease;
+    border-radius: 8px;
+  }
+
+  .navbar2 a.login-button:hover {
+    color: #ffffff;
+    padding: 28px 24px;
+    border-color: #fff;
+    background: linear-gradient(-135deg, #00fff7, #00ff08);
+    font-size: 18px;
+}
+
+  .navbar2 a.login-button {
+    border: 1px solid #fff;
+    background: linear-gradient(-135deg, #04df0b, #03e2db);
+    padding: 25px 20px;
+    border-radius: 0.375rem;
+    text-align: center;
+    transition: 0.4s ease;
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 0;
+    height: 20px;
+    margin-top: 12px;
+}
+
+.navbar2 a.about-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 12px 20px;
+  }
+
+.navbar2 a.home-button2 img {
+    width: 120px; 
+    height: auto;
+    margin-right: 5px;
+    overflow: visible;
+  }
+
+  .navbar2 a.home-button2:hover {
+    color: #08344f;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 0.9rem;
+    padding: 30px 20px 30px 20px;
+    margin-top: 400px;
+  }
+  .navbar2 .profile-button {
+    margin-left: auto; /* This will push the profile button to the right */
+  }
+  
+  .navbar2 .profile-button img {
+    width: 60px; /* Adjust the size as needed */
+    height: 60px; /* Adjust the size as needed */
+    border-radius: 50%; /* This will make it a circle */
+  }
+  .navbar2 a.joinus-button:hover {
+    color: #ffffff;
+    padding: 28px 24px;
+    border-color: #fff;
+    background: linear-gradient(-135deg, #00fff7, #00ff08);
+    font-size: 18px;
+}
+
+  .navbar2 a.joinus-button {
+    border: 1px solid #fff;
+    background: linear-gradient(-135deg, #04df0b, #03e2db);
+    padding: 25px 20px;
+    border-radius: 0.375rem;
+    text-align: center;
+    transition: 0.4s ease;
+    margin-left: auto;
+    font-size: 18px;
+    line-height: 0;
+    height: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    margin-right: 20px;
+
+}
+.menu {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  font-size: 30px;
+  background: none;
+  transition: font-size 0.5s, transform 0.5s;
+  transform-origin: center;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 4px 4px 4px 4px;
+}
+.menu:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 0.9rem;
+  transition: 0.3s ease;
+} 

@@ -1,0 +1,36 @@
+.delete-button{
+    padding: 7px 7px;
+    text-align: center;
+    border-radius: 5px;
+    background: #d60202;
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.delete-button:hover {
+    background: #910000;
+}
+.events-box{
+    border:1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+.event-list2{
+    list-style-type: none;
+}
+strong {
+    size: 300px;
+}
+.event-title3{
+    text-decoration: underline;
+}
+.markfinished-button{
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 10px;
+    width: 180px;
+}

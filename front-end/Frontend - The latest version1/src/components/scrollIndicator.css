@@ -1,0 +1,17 @@
+.scroll-indicator {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .scroll-indicator.visible {
+    opacity: 1;
+  }
+  
+  .scroll-indicator.hidden {
+    opacity: 0;
+  }
+  

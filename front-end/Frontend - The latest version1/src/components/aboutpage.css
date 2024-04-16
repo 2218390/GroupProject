@@ -1,0 +1,62 @@
+/*.abouttitle {
+    font-size: 50px;
+    color: #000;
+    position: relative;
+    transition: color 0.3s ease-in-out; /* Add transition property for color */
+/*}
+
+/*.abouttitle:hover {
+    color: #00fff7;
+} */
+
+.abouttitle {
+    font-size: 50px;
+    background: linear-gradient(-135deg, #00fff7, #00ff08);
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    text-align: center;
+    transition: background-position 0.3s ease-in-out; /* Add transition property for gradient movement */
+}
+
+.abouttitle:hover {
+    background-position: 100% 0; /* Move the gradient to the end on hover */
+}
+
+.description p {
+    margin-bottom: 50px;
+    margin-left: 1em;
+    color: #009a15;
+}
+
+.login-button2:hover {
+    color: #ffffff;
+    padding: 12px 14px;
+    border-color: #fff;
+    background: linear-gradient(-135deg, #00fff7, #00ff08);
+    font-size: 18px;
+    }
+    
+.login-button2 {
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    border: 1px solid #fff;
+    background: linear-gradient(-135deg, #04df0b, #03e2db);
+    padding: 10px 12px;
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: 0.4s ease;
+    margin-left: 0.5em;
+    font-size: 18px;
+    margin-top: 80px;
+    }
+
+.aboutpage {
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
